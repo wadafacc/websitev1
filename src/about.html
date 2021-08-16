@@ -6,21 +6,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <script src="main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>:D</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li> <a href="../index.html">HOME</a></li>
-            <li> <a href="./about.html">ABOUT</a></li>
-            <!--Social icons-->
-            <li>
-                <a href="https://github.com/wadafacc" style="font-size: 10px;">GITHUB</a><br>
-                <a href="https://instagram.com/wadafacc_" style="font-size: 10px;">INSTAGRAM</a>
-            </li>
-        </ul>
-    </nav>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../index.html">HOME.</a>
+        <a href="about.html">ABOUT.</a>
+        <a href="https://instagram.com/wadafacc_">INSTA.</a>
+        <a href="https://github.com/wadafacc">GITHUB.</a>
+    </div>
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
     <div id="about">
             <span class="about">Hi.<br>My name is Timo aka. Wadafacc. <br> I am currently doing an apprenticeship @ <a href="https://siemens.com">Siemens</a><br>as a software engineer.<br>
             <br><span style="color:aqua;">Oh. And I like buckets.<br>For no particular reason.</span></span>
